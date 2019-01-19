@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: b17352f1562fcdb4d959e6e76036a37b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone015
+    100014: Bone016
+    100016: Bone017
+    100018: Bone018
+    100020: Bone019
+    100022: Bone020
+    100024: Bone021
+    100026: Bone022
+    100028: Bone023
+    100030: Bone023(mirrored)
+    100032: Bone024
+    100034: Bone024(mirrored)
+    100036: Bone025
+    100038: Bone025(mirrored)
+    100040: Bone026
+    100042: Bone026(mirrored)
+    100044: Bone027
+    100046: Bone027(mirrored)
+    100048: Bone028
+    100050: Bone028(mirrored)
+    100052: Bone029
+    100054: Bone029(mirrored)
+    100056: Bone030
+    100058: Bone030(mirrored)
+    100060: Bone031
+    100062: Bone031(mirrored)
+    100064: Bone032
+    100066: Bone032(mirrored)
+    100068: Bone033
+    100070: Bone033(mirrored)
+    100072: Bone034
+    100074: Bone034(mirrored)
+    100076: Bone035
+    100078: Bone035(mirrored)
+    100080: Bone036
+    100082: Bone036(mirrored)
+    100084: Bone037
+    100086: Bone037(mirrored)
+    100088: Bone038
+    100090: Bone038(mirrored)
+    100092: Bone039
+    100094: Bone039(mirrored)
+    100096: Bone040
+    100098: Bone040(mirrored)
+    100100: Bone041
+    100102: Bone041(mirrored)
+    100104: Bone042
+    100106: Bone042(mirrored)
+    100108: Bone043
+    100110: Bone044
+    100112: Bone045
+    100114: Bone046
+    100116: Bone047
+    100118: Bone048
+    100120: Bone049
+    100122: Bone050
+    100124: Dummy022
+    100126: fkBone043
+    100128: fkBone043 1
+    100130: fkBone044
+    100132: fkBone044 1
+    100134: fkBone045
+    100136: fkBone045 1
+    100138: ikBone046
+    100140: ikBone046 1
+    100142: ikBone047
+    100144: ikBone047 1
+    100146: ikBone048
+    100148: ikBone048 1
+    100150: tofaBone051
+    100152: tofaBone051(mirrored)
+    100154: tofaBone052
+    100156: tofaBone052(mirrored)
+    100158: tofaBone053
+    100160: tofaBone053(mirrored)
+    100162: tofaBone054
+    100164: tofaBone054(mirrored)
+    100166: tofaBone055
+    100168: tofaBone055(mirrored)
+    100170: tofaBone056
+    100172: tofaBone056(mirrored)
+    100174: tofaBone057
+    100176: tofaBone057(mirrored)
+    100178: tofaBone058
+    100180: tofaBone058(mirrored)
+    100182: tofaBone059
+    100184: tofaBone059(mirrored)
+    100186: tofaBone060
+    100188: tofaBone060(mirrored)
+    100190: tofaBone061
+    100192: tofaBone062
+    100194: tofaBone063
+    100196: tofaBone064
+    100198: tofaBone065
+    100200: tofaBone066
+    100202: tofaBone067
+    100204: tofaBone068
+    100206: tofaBone069
+    100208: tofaBone070
+    100210: tofaBone071
+    100212: tofaBone072
+    100214: tofaBone073
+    100216: tofaBone074
+    100218: tofaBone075
+    100220: tofaBone076
+    100222: tofaBone077
+    100224: tofaBone078
+    100226: tofaBone079
+    100228: tofaBone080
+    100230: tofaBone081
+    100232: tofaBone082
+    100234: tofaBone083
+    100236: tofaBone084
+    100238: //RootNode
+    100240: World_Female_ghost
+    100242: World_Rocking chair
+    100244: "\u5BF9\u8C61001"
+    100246: "\u5BF9\u8C61002"
+    100248: "\u5BF9\u8C61003"
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone015
+    400014: Bone016
+    400016: Bone017
+    400018: Bone018
+    400020: Bone019
+    400022: Bone020
+    400024: Bone021
+    400026: Bone022
+    400028: Bone023
+    400030: Bone023(mirrored)
+    400032: Bone024
+    400034: Bone024(mirrored)
+    400036: Bone025
+    400038: Bone025(mirrored)
+    400040: Bone026
+    400042: Bone026(mirrored)
+    400044: Bone027
+    400046: Bone027(mirrored)
+    400048: Bone028
+    400050: Bone028(mirrored)
+    400052: Bone029
+    400054: Bone029(mirrored)
+    400056: Bone030
+    400058: Bone030(mirrored)
+    400060: Bone031
+    400062: Bone031(mirrored)
+    400064: Bone032
+    400066: Bone032(mirrored)
+    400068: Bone033
+    400070: Bone033(mirrored)
+    400072: Bone034
+    400074: Bone034(mirrored)
+    400076: Bone035
+    400078: Bone035(mirrored)
+    400080: Bone036
+    400082: Bone036(mirrored)
+    400084: Bone037
+    400086: Bone037(mirrored)
+    400088: Bone038
+    400090: Bone038(mirrored)
+    400092: Bone039
+    400094: Bone039(mirrored)
+    400096: Bone040
+    400098: Bone040(mirrored)
+    400100: Bone041
+    400102: Bone041(mirrored)
+    400104: Bone042
+    400106: Bone042(mirrored)
+    400108: Bone043
+    400110: Bone044
+    400112: Bone045
+    400114: Bone046
+    400116: Bone047
+    400118: Bone048
+    400120: Bone049
+    400122: Bone050
+    400124: Dummy022
+    400126: fkBone043
+    400128: fkBone043 1
+    400130: fkBone044
+    400132: fkBone044 1
+    400134: fkBone045
+    400136: fkBone045 1
+    400138: ikBone046
+    400140: ikBone046 1
+    400142: ikBone047
+    400144: ikBone047 1
+    400146: ikBone048
+    400148: ikBone048 1
+    400150: tofaBone051
+    400152: tofaBone051(mirrored)
+    400154: tofaBone052
+    400156: tofaBone052(mirrored)
+    400158: tofaBone053
+    400160: tofaBone053(mirrored)
+    400162: tofaBone054
+    400164: tofaBone054(mirrored)
+    400166: tofaBone055
+    400168: tofaBone055(mirrored)
+    400170: tofaBone056
+    400172: tofaBone056(mirrored)
+    400174: tofaBone057
+    400176: tofaBone057(mirrored)
+    400178: tofaBone058
+    400180: tofaBone058(mirrored)
+    400182: tofaBone059
+    400184: tofaBone059(mirrored)
+    400186: tofaBone060
+    400188: tofaBone060(mirrored)
+    400190: tofaBone061
+    400192: tofaBone062
+    400194: tofaBone063
+    400196: tofaBone064
+    400198: tofaBone065
+    400200: tofaBone066
+    400202: tofaBone067
+    400204: tofaBone068
+    400206: tofaBone069
+    400208: tofaBone070
+    400210: tofaBone071
+    400212: tofaBone072
+    400214: tofaBone073
+    400216: tofaBone074
+    400218: tofaBone075
+    400220: tofaBone076
+    400222: tofaBone077
+    400224: tofaBone078
+    400226: tofaBone079
+    400228: tofaBone080
+    400230: tofaBone081
+    400232: tofaBone082
+    400234: tofaBone083
+    400236: tofaBone084
+    400238: //RootNode
+    400240: World_Female_ghost
+    400242: World_Rocking chair
+    400244: "\u5BF9\u8C61001"
+    400246: "\u5BF9\u8C61002"
+    400248: "\u5BF9\u8C61003"
+    2100000: World_Female_ghost_Head
+    2100002: World_Female_ghost_Hair
+    2100004: World_Female ghost_Skin
+    2100006: World_Female ghost_Head
+    2100008: World_Rocking chair
+    2300000: World_Rocking chair
+    3300000: World_Rocking chair
+    4300000: World_Female_ghost
+    4300002: "\u5BF9\u8C61001"
+    4300004: "\u5BF9\u8C61002"
+    4300006: "\u5BF9\u8C61003"
+    4300008: World_Rocking chair
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: World_Female_ghost
+    13700002: "\u5BF9\u8C61001"
+    13700004: "\u5BF9\u8C61002"
+    13700006: "\u5BF9\u8C61003"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

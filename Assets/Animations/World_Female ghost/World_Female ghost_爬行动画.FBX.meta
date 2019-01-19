@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 931329f821f681f4ba8966ef71622402
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: " \u773C\u7403Dummy024"
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone015
+    100016: Bone016
+    100018: Bone017
+    100020: Bone018
+    100022: Bone019
+    100024: Bone020
+    100026: Bone021
+    100028: Bone022
+    100030: Bone023
+    100032: Bone023(mirrored)
+    100034: Bone024
+    100036: Bone024(mirrored)
+    100038: Bone025
+    100040: Bone025(mirrored)
+    100042: Bone026
+    100044: Bone026(mirrored)
+    100046: Bone027
+    100048: Bone027(mirrored)
+    100050: Bone028
+    100052: Bone028(mirrored)
+    100054: Bone029
+    100056: Bone029(mirrored)
+    100058: Bone030
+    100060: Bone030(mirrored)
+    100062: Bone031
+    100064: Bone031(mirrored)
+    100066: Bone032
+    100068: Bone032(mirrored)
+    100070: Bone033
+    100072: Bone033(mirrored)
+    100074: Bone034
+    100076: Bone034(mirrored)
+    100078: Bone035
+    100080: Bone035(mirrored)
+    100082: Bone036
+    100084: Bone036(mirrored)
+    100086: Bone037
+    100088: Bone037(mirrored)
+    100090: Bone038
+    100092: Bone038(mirrored)
+    100094: Bone039
+    100096: Bone039(mirrored)
+    100098: Bone040
+    100100: Bone040(mirrored)
+    100102: Bone041
+    100104: Bone041(mirrored)
+    100106: Bone042
+    100108: Bone042(mirrored)
+    100110: Bone043
+    100112: Bone044
+    100114: Bone045
+    100116: Bone046
+    100118: Bone047
+    100120: Bone048
+    100122: Bone049
+    100124: Bone050
+    100126: Dummy022
+    100128: fkBone043
+    100130: fkBone043 1
+    100132: fkBone044
+    100134: fkBone044 1
+    100136: fkBone045
+    100138: fkBone045 1
+    100140: ikBone046
+    100142: ikBone046 1
+    100144: ikBone047
+    100146: ikBone047 1
+    100148: ikBone048
+    100150: ikBone048 1
+    100152: tofaBone051
+    100154: tofaBone051(mirrored)
+    100156: tofaBone052
+    100158: tofaBone052(mirrored)
+    100160: tofaBone053
+    100162: tofaBone053(mirrored)
+    100164: tofaBone054
+    100166: tofaBone054(mirrored)
+    100168: tofaBone055
+    100170: tofaBone055(mirrored)
+    100172: tofaBone056
+    100174: tofaBone056(mirrored)
+    100176: tofaBone057
+    100178: tofaBone057(mirrored)
+    100180: tofaBone058
+    100182: tofaBone058(mirrored)
+    100184: tofaBone059
+    100186: tofaBone059(mirrored)
+    100188: tofaBone060
+    100190: tofaBone060(mirrored)
+    100192: tofaBone061
+    100194: tofaBone062
+    100196: tofaBone063
+    100198: tofaBone064
+    100200: tofaBone065
+    100202: tofaBone066
+    100204: tofaBone067
+    100206: tofaBone068
+    100208: tofaBone069
+    100210: tofaBone070
+    100212: tofaBone071
+    100214: tofaBone072
+    100216: tofaBone073
+    100218: tofaBone074
+    100220: tofaBone075
+    100222: tofaBone076
+    100224: tofaBone077
+    100226: tofaBone078
+    100228: tofaBone079
+    100230: tofaBone080
+    100232: tofaBone081
+    100234: tofaBone082
+    100236: tofaBone083
+    100238: tofaBone084
+    100240: //RootNode
+    100242: World_Female_ghost
+    100244: "\u5634bone"
+    100246: "\u5BF9\u8C61002"
+    100248: "\u5BF9\u8C61003"
+    100250: "\u5BF9\u8C61004"
+    100252: "\u773C\u7403Dummy025"
+    400000: " \u773C\u7403Dummy024"
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone015
+    400016: Bone016
+    400018: Bone017
+    400020: Bone018
+    400022: Bone019
+    400024: Bone020
+    400026: Bone021
+    400028: Bone022
+    400030: Bone023
+    400032: Bone023(mirrored)
+    400034: Bone024
+    400036: Bone024(mirrored)
+    400038: Bone025
+    400040: Bone025(mirrored)
+    400042: Bone026
+    400044: Bone026(mirrored)
+    400046: Bone027
+    400048: Bone027(mirrored)
+    400050: Bone028
+    400052: Bone028(mirrored)
+    400054: Bone029
+    400056: Bone029(mirrored)
+    400058: Bone030
+    400060: Bone030(mirrored)
+    400062: Bone031
+    400064: Bone031(mirrored)
+    400066: Bone032
+    400068: Bone032(mirrored)
+    400070: Bone033
+    400072: Bone033(mirrored)
+    400074: Bone034
+    400076: Bone034(mirrored)
+    400078: Bone035
+    400080: Bone035(mirrored)
+    400082: Bone036
+    400084: Bone036(mirrored)
+    400086: Bone037
+    400088: Bone037(mirrored)
+    400090: Bone038
+    400092: Bone038(mirrored)
+    400094: Bone039
+    400096: Bone039(mirrored)
+    400098: Bone040
+    400100: Bone040(mirrored)
+    400102: Bone041
+    400104: Bone041(mirrored)
+    400106: Bone042
+    400108: Bone042(mirrored)
+    400110: Bone043
+    400112: Bone044
+    400114: Bone045
+    400116: Bone046
+    400118: Bone047
+    400120: Bone048
+    400122: Bone049
+    400124: Bone050
+    400126: Dummy022
+    400128: fkBone043
+    400130: fkBone043 1
+    400132: fkBone044
+    400134: fkBone044 1
+    400136: fkBone045
+    400138: fkBone045 1
+    400140: ikBone046
+    400142: ikBone046 1
+    400144: ikBone047
+    400146: ikBone047 1
+    400148: ikBone048
+    400150: ikBone048 1
+    400152: tofaBone051
+    400154: tofaBone051(mirrored)
+    400156: tofaBone052
+    400158: tofaBone052(mirrored)
+    400160: tofaBone053
+    400162: tofaBone053(mirrored)
+    400164: tofaBone054
+    400166: tofaBone054(mirrored)
+    400168: tofaBone055
+    400170: tofaBone055(mirrored)
+    400172: tofaBone056
+    400174: tofaBone056(mirrored)
+    400176: tofaBone057
+    400178: tofaBone057(mirrored)
+    400180: tofaBone058
+    400182: tofaBone058(mirrored)
+    400184: tofaBone059
+    400186: tofaBone059(mirrored)
+    400188: tofaBone060
+    400190: tofaBone060(mirrored)
+    400192: tofaBone061
+    400194: tofaBone062
+    400196: tofaBone063
+    400198: tofaBone064
+    400200: tofaBone065
+    400202: tofaBone066
+    400204: tofaBone067
+    400206: tofaBone068
+    400208: tofaBone069
+    400210: tofaBone070
+    400212: tofaBone071
+    400214: tofaBone072
+    400216: tofaBone073
+    400218: tofaBone074
+    400220: tofaBone075
+    400222: tofaBone076
+    400224: tofaBone077
+    400226: tofaBone078
+    400228: tofaBone079
+    400230: tofaBone080
+    400232: tofaBone081
+    400234: tofaBone082
+    400236: tofaBone083
+    400238: tofaBone084
+    400240: //RootNode
+    400242: World_Female_ghost
+    400244: "\u5634bone"
+    400246: "\u5BF9\u8C61002"
+    400248: "\u5BF9\u8C61003"
+    400250: "\u5BF9\u8C61004"
+    400252: "\u773C\u7403Dummy025"
+    2100000: World_Female_ghost_Head
+    2100002: World_Female ghost_Skin
+    2100004: World_Female ghost_Head
+    4300000: World_Female_ghost
+    4300002: "\u5BF9\u8C61002"
+    4300004: "\u5BF9\u8C61003"
+    4300006: "\u5BF9\u8C61004"
+    7400000: Climb
+    7400002: Turn
+    7400004: Jump
+    9500000: //RootNode
+    13700000: World_Female_ghost
+    13700002: "\u5BF9\u8C61002"
+    13700004: "\u5BF9\u8C61003"
+    13700006: "\u5BF9\u8C61004"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Climb
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
