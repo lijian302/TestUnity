@@ -22,33 +22,31 @@ namespace MengTu
         private AnimatorStateInfo stateInfo;
         private bool isComplete;
         private Vector3 previousAngle;
+        private Vector3 previousPos;
+        private Transform boneTrans;
 
         // 在这个地方调用
         void Start()
         {
             animator = GetComponent<Animator>();
+            boneTrans = animator.transform.Find("Bone001");
         }
 
         // 每次更新，都要掉用这个方法
         void Update()
         {
-            //Debug.Log(animator.GetCurrentAnimatorClipInfo(0)[0].clip.length + ", "
-            //    + animator.GetCurrentAnimatorStateInfo(0).length + ", "
-            //    + animator.GetCurrentAnimatorStateInfo(0).normalizedTime + ", "
-            //    + animator.GetCurrentAnimatorStateInfo(0).normalizedTime * animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 animator.SetTrigger("IsRound");
             }
+
             stateInfo = animator.GetCurrentAnimatorStateInfo(0);
             if (stateInfo.IsName("Round") && stateInfo.normalizedTime >= 1)
             {
-                Debug.Log("complete0" + animator.transform.Find("Bone001").eulerAngles);
                 animator.Play("Climb");
+                previousAngle = boneTrans.eulerAngles;
+                previousPos = boneTrans.position;
                 isComplete = true;
-                previousAngle = animator.transform.localEulerAngles;
-                Debug.Log("complete1" + animator.transform.Find("Bone001").eulerAngles);
             }
         }
 
@@ -56,8 +54,12 @@ namespace MengTu
         {
             if (isComplete)
             {
-                Debug.Log("complete2" + animator.transform.Find("Bone001").localEulerAngles);
-                animator.transform.localEulerAngles += animator.transform.Find("Bone001").eulerAngles - previousAngle;
+                Vector3 deltaAngle = boneTrans.eulerAngles - previousAngle;
+                Debug.Log("deltaAngle: " + deltaAngle);
+                animator.transform.parent.eulerAngles -= deltaAngle;
+                Vector3 deltaPos = boneTrans.position - previousPos;
+                Debug.Log("deltaPos: " + deltaPos);
+                animator.transform.parent.position -= deltaPos;
                 isComplete = false;
             }
         }
